@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Template 6</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body class="container-fluid p-0 m-0 h-100">
+    <!--Header on large screens-->
+    <header class="position-fixed w-100 d-flex justify-content-between">
+
+        <!--Menu icon on small screens-->
+        <div class="open-nav py-2 px-3 d-lg-none"><i class="fa fa-bars"></i> &nbsp;Menu</div>
+
+        <span></span>
+        <div class="py-2 px-3">Logo</div>
+    </header>
+
+    <div class="content row w-100">
+        <!--Sidebar on large screens-->
+        <nav class="d-none d-lg-block col-lg-3 col-xl-3 p-0 h-100">
+            <div class="position-fixed h-100 p-0 w-25">
+                <br>
+                <div class="p-0 row m-0">
+                    <div class="col-4 p-0 pl-3">
+                        <img src="images/avatar2.png" class="user-img rounded-circle mr-3">
+                    </div>
+                    <div class="col-8 p-0">
+                        <div class=" mb-1">
+                            Welcome, 
+                            <strong>Mike</strong>
+                        </div>
+                        <a href="#" class="py-2 px-3 text-decoration-none">
+                            <i class="fa fa-envelope"></i>
+                        </a>
+                        <a href="#" class="py-2 px-3 text-decoration-none">
+                            <i class="fa fa-user"></i>
+                        </a>
+                        <a href="#" class="py-2 px-3 text-decoration-none">
+                            <i class="fa fa-cog"></i>
+                        </a>
+                    </div>
+                </div>
+                <hr>
+                <div class="px-3">
+                    <h5 class="py-2">Dashboard</h5>
+                </div>
+                <div class="side-menu">
+                    <a href="#" class="overview py-2 px-3 d-block text-left text-decoration-none">
+                        <i class="fa fa-users"></i>
+                        &nbsp; Overview
+                    </a>
+                    <a href="#" class="py-2 px-3 d-block text-left text-decoration-none">
+                        <i class="fa fa-eye"></i>
+                        &nbsp; Views
+                    </a>
+                    <a href="#" class="py-2 px-3 d-block text-left text-decoration-none">
+                        <i class="fa fa-users"></i>
+                        &nbsp; Traffic
+                    </a>
+                    <a href="#" class="py-2 px-3 d-block text-left text-decoration-none">
+                        <i class="fa fa-bullseye"></i>
+                        &nbsp; Geo
+                    </a>
+                    <a href="#" class="py-2 px-3 d-block text-left text-decoration-none">
+                        <i class="fa fa-diamond"></i>
+                        &nbsp; Orders
+                    </a>
+                    <a href="#" class="py-2 px-3 d-block text-left text-decoration-none">
+                        <i class="fa fa-bell"></i>
+                        &nbsp; News
+                    </a>
+                    <a href="#" class="py-2 px-3 d-block text-left text-decoration-none">
+                        <i class="fa fa-bank"></i>
+                        &nbsp; General
+                    </a>
+                    <a href="#" class="py-2 px-3 d-block text-left text-decoration-none">
+                        <i class="fa fa-history"></i>
+                        &nbsp; History
+                    </a>
+                    <a href="#" class="py-2 px-3 d-block text-left text-decoration-none">
+                        <i class="fa fa-cog"></i>
+                        &nbsp; Settings
+                    </a>
+                </div>
+            </div>
+        </nav>
+    
+        <!--Overlay effect on small screens-->
+        <div class="close-nav overlay position-fixed w-100 h-100 d-lg-none" title="close side menu"></div>
+
+        <!--Sidebar on small screens-->
+        <nav class="side-bar position-fixed h-100 d-lg-none">
+            <br>
+                <div class="row p-0 m-0" style="overflow: visible">
+                    <div class="col-4 p-0 pl-3">
+                        <img src="images/avatar2.png" class="user-img rounded-circle mr-3">
+                    </div>
+                    <div class="col-8 p-0">
+                        <div class=" mb-1">
+                            Welcome, 
+                            <strong>Mike</strong>
+                        </div>
+                        <a href="#" class="py-2 px-3 text-decoration-none">
+                            <i class="fa fa-envelope"></i>
+                        </a>
+                        <a href="#" class="py-2 px-3 text-decoration-none">
+                            <i class="fa fa-user"></i>
+                        </a>
+                        <a href="#" class="py-2 px-3 text-decoration-none">
+                            <i class="fa fa-cog"></i>
+                        </a>
+                    </div>
+                </div>
+                <hr>
+                <div class="px-3">
+                    <h5 class="py-2">Dashboard</h5>
+                </div>
+                <div class="side-menu">
+                    <a href="#" class="close-nav close-menu p-3 d-block text-left text-decoration-none">
+                        <i class="fa fa-remove"></i>
+                        &nbsp; Close Menu
+                    </a>
+                    <a href="#" class="overview py-2 px-3 d-block text-left text-decoration-none">
+                        <i class="fa fa-users"></i>
+                        &nbsp; Overview
+                    </a>
+                    <a href="#" class="py-2 px-3 d-block text-left text-decoration-none">
+                        <i class="fa fa-eye"></i>
+                        &nbsp; Views
+                    </a>
+                    <a href="#" class="py-2 px-3 d-block text-left text-decoration-none">
+                        <i class="fa fa-users"></i>
+                        &nbsp; Traffic
+                    </a>
+                    <a href="#" class="py-2 px-3 d-block text-left text-decoration-none">
+                        <i class="fa fa-bullseye"></i>
+                        &nbsp; Geo
+                    </a>
+                    <a href="#" class="py-2 px-3 d-block text-left text-decoration-none">
+                        <i class="fa fa-diamond"></i>
+                        &nbsp; Orders
+                    </a>
+                    <a href="#" class="py-2 px-3 d-block text-left text-decoration-none">
+                        <i class="fa fa-bell"></i>
+                        &nbsp; News
+                    </a>
+                    <a href="#" class="py-2 px-3 d-block text-left text-decoration-none">
+                        <i class="fa fa-bank"></i>
+                        &nbsp; General
+                    </a>
+                    <a href="#" class="py-2 px-3 d-block text-left text-decoration-none">
+                        <i class="fa fa-history"></i>
+                        &nbsp; History
+                    </a>
+                    <a href="#" class="py-2 px-3 d-block text-left text-decoration-none">
+                        <i class="fa fa-cog"></i>
+                        &nbsp; Settings
+                    </a>
+                </div>
+        </nav>
+    
+        <!--Page content-->
+        <div class="col-12 col-lg-9 col-xl-9 p-0">
+            <!--Dashboard Header-->
+            <div class="pt-3 px-3">
+                <h5 class="py-2"><b>
+                    <i class="fa fa-dashboard"></i>
+                     My Dashboard
+                </b></h5>
+            </div>
+    
+            <!--Dashboard content-->
+            <div class="dashboard px-2 m-0 mb-3 row">
+                <div class="px-2 col-sm-3">
+                    <div class="red-box p-3 d-flex flex-column">
+                        <div class="d-flex justify-content-between">
+                            <div class="dashboard-icon">
+                                <i class="fa fa-comment"></i>
+                            </div>
+                            <h3 class="my-2">52</h3>
+                        </div>
+                        <h4 class="my-2">Messages</h4>
+                    </div>
+                </div>
+                <div class="px-2 col-sm-3">
+                    <div class="blue-box p-3 d-flex flex-column">
+                        <div class="d-flex justify-content-between">
+                            <div class="dashboard-icon">
+                                <i class="fa fa-eye"></i>
+                            </div>
+                            <h3 class="my-2">99</h3>
+                        </div>
+                        <h4 class="my-2">Views</h4>
+                    </div>
+                </div>
+                <div class="px-2 col-sm-3">
+                    <div class="green-box p-3 d-flex flex-column">
+                        <div class="d-flex justify-content-between">
+                            <div class="dashboard-icon">
+                                <i class="fa fa-share-alt"></i>
+                            </div>
+                            <h3 class="my-2">23</h3>
+                        </div>
+                        <h4 class="my-2">Shares</h4>
+                    </div>
+                </div>
+                <div class="px-2 col-sm-3">
+                    <div class="orange-box p-3 d-flex flex-column">
+                        <div class="d-flex justify-content-between">
+                            <div class="dashboard-icon">
+                                <i class="fa fa-users"></i>
+                            </div>
+                            <h3 class="my-2">50</h3>
+                        </div>
+                        <h4 class="my-2">Users</h4>
+                    </div>
+                </div>
+            </div>
+    
+            <!--Regions/Feeds-->
+            <div class="row p-0 m-0 my-3 px-3">
+                <div class="col-sm-4 p-0 pr-sm-2">
+                    <h5 class="my-2">Regions</h5>
+                    <img src="images/region.jpg" class="w-100">
+                </div>
+                <div class="col-sm-8 p-0 pl-sm-2">
+                    <h5 class="my-2">Feeds</h5>
+                    <table class="feed-table w-100">
+                        <tr>
+                            <td class="px-3 py-2">
+                                <i class="fa fa-user blue-text"></i>
+                            </td>
+                            <td>New record, over 90 views.</td>
+                            <td><i>10 mins</i></td>
+                        </tr>
+                        <tr>
+                            <td class="px-3 py-2">
+                                <i class="fa fa-bell red-text"></i>
+                            </td>
+                            <td>Database error.</td>
+                            <td><i>15 mins</i></td>
+                        </tr>
+                        <tr>
+                            <td class="px-3 py-2">
+                                <i class="fa fa-users yellow-text"></i>
+                            </td>
+                            <td>New record, over 40 users.</td>
+                            <td><i>17 mins</i></td>
+                        </tr>
+                        <tr>
+                            <td class="px-3 py-2">
+                                <i class="fa fa-comment red-text"></i>
+                            </td>
+                            <td>New comments.</td>
+                            <td><i>25 mins</i></td>
+                        </tr>
+                        <tr>
+                            <td class="px-3 py-2">
+                                <i class="fa fa-bookmark blue-text"></i>
+                            </td>
+                            <td>Check transactions.</td>
+                            <td><i>28 mins</i></td>
+                        </tr>
+                        <tr>
+                            <td class="px-3 py-2">
+                                <i class="fa fa-laptop red-text"></i>
+                            </td>
+                            <td>CPU overload.</td>
+                            <td>35 mins</td>
+                        </tr>
+                        <tr>
+                            <td class="px-3 py-2">
+                                <i class="fa fa-share-alt green-text"></i>
+                            </td>
+                            <td>New shares.</td>
+                            <td><i>39 mins</i></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <hr>
+    
+            <!--General Stats-->
+            <div class="px-3">
+                <h5 class="py-2 m-0">General Stats</h5>
+                <p class="my-3">New Visitors</p>
+                <div class="progress rounded-0" style="height: 40px">
+                    <div class="progress-bar green-bar" role="progressbar" style="width: 25%">+25%</div>
+                    <div class="progress-bar gray-bar" role="progressbar" style="width: 75%"></div>
+                </div>
+
+                <p class="my-3">New Users</p>
+                <div class="progress rounded-0" style="height: 40px">
+                    <div class="progress-bar orange-bar" role="progressbar" style="width: 50%">50%</div>
+                    <div class="progress-bar gray-bar" role="progressbar" style="width: 50%"></div>
+                </div>
+
+                <p class="my-3">New Visitors</p>
+                <div class="progress rounded-0" style="height: 40px">
+                    <div class="progress-bar red-bar" role="progressbar" style="width: 75%">75%</div>
+                    <div class="progress-bar gray-bar" role="progressbar" style="width: 25%"></div>
+                </div>
+            </div>
+
+            <hr>
+    
+            <!--Countries-->
+            <div class="px-3">
+                <h5 class="py-2 m-0">Countries</h5>
+                <table class="countries-table w-100">
+                    <tr>
+                        <td class="pl-3 pr-2 py-2">United States</td>
+                        <td>65%</td>
+                    </tr>
+                    <tr>
+                        <td class="pl-3 pr-2 py-2">UK</td>
+                        <td>15.7%</td>
+                    </tr>
+                    <tr>
+                        <td class="pl-3 pr-2 py-2">Russia</td>
+                        <td>5.6%</td>
+                    </tr>
+                    <tr>
+                        <td class="pl-3 pr-2 py-2">Spain</td>
+                        <td>2.1%</td>
+                    </tr>
+                    <tr>
+                        <td class="pl-3 pr-2 py-2">India</td>
+                        <td>1.9%</td>
+                    </tr>
+                    <tr>
+                        <td class="pl-3 pr-2 py-2">France</td>
+                        <td>1.5%</td>
+                    </tr>
+                </table>
+                <br>
+                <button class="border-0 py-2 px-3 countries-btn">
+                        More Countries &nbsp;
+                        <i class="fa fa-arrow-right"></i>
+                </button>
+            </div>
+
+            <hr>
+
+            <!--Recent Users-->
+            <div class="px-3">
+                <h5 class="py-2 m-0">Recent Users</h5>
+                <ul class="list-group user-list">
+                    <li class="list-group-item rounded-0">
+                        <img src="images/avatar2.png" class="rounded-circle mr-3" style="vertical-align: bottom">
+                        <span>Mike</span>
+                    </li>
+                    <li class="list-group-item">
+                        <img src="images/avatar5.png" class="rounded-circle mr-3" style="vertical-align: bottom">
+                        <span>Jill</span>
+                    </li>
+                    <li class="list-group-item rounded-0">
+                        <img src="images/avatar6.png" class="rounded-circle mr-3" style="vertical-align: bottom">
+                        <span>Jane</span>
+                    </li>
+                </ul>
+            </div>
+
+            <hr>
+    
+            <!--Recent Comments-->
+            <div class="px-3 comments">
+                <h5 class="py-2 m-0">Recent Comments</h5>
+                <div class="row p-0 m-0">
+                    <div class="col-sm-2 pl-0">
+                        <img src="images/avatar3.png" class="rounded-circle">
+                    </div>
+                    <div class="col-sm-10">
+                        <h4 class="py-2 m-0">
+                            John 
+                            <span>Sep 29, 2014, 9:12 PM</span>
+                        </h4>
+                        <p class="my-3">
+                            Keep up the GREAT work! I am cheering for you!! Lorem ipsum 
+                            dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                            tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                        <br>
+                    </div>
+                </div>
+                <div class="row p-0 m-0">
+                    <div class="col-sm-2 pl-0">
+                        <img src="images/avatar1.png" class="rounded-circle">
+                    </div>
+                    <div class="col-sm-10">
+                        <h4 class="py-2 m-0">
+                            Bo 
+                            <span>Sep 28, 2014, 10:15 PM</span>
+                        </h4>
+                        <p class="my-3">
+                            Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                        <br>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+    
+            <!--Details-->
+            <div class="details">
+                <div class="row w-100 m-0 py-4 px-3">
+                    <div class="col-sm-4">
+                        <h5 class="py-1 my-2 green-border">Demographic</h5>
+                        <p class="mt-3">Language</p>
+                        <p>Country</p>
+                        <p>City</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <h5 class="py-1 my-2 red-border">System</h5>
+                        <p class="mt-3">Browser</p>
+                        <p>OS</p>
+                        <p>More</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <h5 class="py-1 my-2 orange-border">Target</h5>
+                        <p class="mt-3">Users</p>
+                        <p>Active</p>
+                        <p>Geo</p>
+                        <p>Interests</p>
+                    </div>
+                </div>
+            </div>
+    
+            <!--Footer-->
+            <footer class="w-100 p-3">
+                <h4 class="py-2">FOOTER</h4>
+                <p>
+                    Powered by 
+                    <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a>
+                </p>
+            </footer>
+        </div>
+    </div>
+
+    <script>
+        $(".open-nav").click(function() {
+            $(".side-bar").toggle();
+            $(".overlay").toggle();
+        });
+
+        $(".close-nav").click(function() {
+            $(".side-bar").hide();
+            $(".overlay").hide();
+        });
+    </script>
+</body>
+</html>
